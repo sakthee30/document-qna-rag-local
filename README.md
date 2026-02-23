@@ -20,15 +20,15 @@ This project demonstrates full-stack GenAI system design with backend API archit
 
 The system follows a layered architecture:
 
-User (Browser UI)
+- User (Browser UI)
         ↓
-Streamlit Frontend
+- Streamlit Frontend
         ↓
-FastAPI Backend
+- FastAPI Backend
         ↓
-FAISS Vector Store
+- FAISS Vector Store
         ↓
-Local LLM (Mistral via Ollama)
+- Local LLM (Mistral via Ollama)
 
 ---
 

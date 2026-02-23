@@ -74,16 +74,16 @@ pip install -r requirements.txt
 ollama pull mistral
 
 ## ▶️ How to Run the Project
-### Start Backend
+### 1️⃣ Start Backend
 uvicorn app.main:app --reload
 
-### Backend runs at
+### 2️⃣ Backend runs at
 uvicorn app.main:app --reload
 
-### Swagger Docs
+### 3️⃣ Swagger Docs
 http://127.0.0.1:8000/docs
 
-### Start Frontend
+### 4️⃣ Start Frontend
 ### Open a new terminal
 cd frontend
 streamlit run app.py

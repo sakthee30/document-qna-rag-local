@@ -7,7 +7,7 @@ from app.rag import VectorStore, generate_answer
 
 app = FastAPI(title="Document QnA RAG API")
 
-# 🔥 Global vector store (shared across requests)
+#vector store 
 vector_store = VectorStore(dimension=384)
 
 UPLOAD_FOLDER = "data"
@@ -25,7 +25,7 @@ async def upload_pdf(file: UploadFile = File(...)):
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    # Load + chunk
+    # Load and chunk
     text = load_pdf(file_path)
     chunks = chunk_text(text)
 

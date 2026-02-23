@@ -74,26 +74,26 @@ pip install -r requirements.txt
 ollama pull mistral
 
 ## ▶️ How to Run the Project
-# Start Backend
+### Start Backend
 uvicorn app.main:app --reload
 
-# Backend runs at
+### Backend runs at
 uvicorn app.main:app --reload
 
-# Swagger Docs
+### Swagger Docs
 http://127.0.0.1:8000/docs
 
-# Start Frontend
-# Open a new terminal
+### Start Frontend
+### Open a new terminal
 cd frontend
 streamlit run app.py
 
-# Frontend runs at
+### Frontend runs at
 http://localhost:8501
 
-### 📡 API Endpoints
-# POST /upload-pdf
+## 📡 API Endpoints
+### POST /upload-pdf
 Uploads and processes a PDF document.
 
-# POST /ask
+### POST /ask
 Accepts a question and returns a generated answer based on document context.

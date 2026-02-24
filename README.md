@@ -1,6 +1,6 @@
 # 📄 Document QnA RAG System (Local LLM + FastAPI + Streamlit)
 
-## 🚀 Overview
+## Overview
 
 This project implements a **Retrieval-Augmented Generation (RAG)** system that allows users to:
 
@@ -14,7 +14,7 @@ This project demonstrates full-stack GenAI system design with backend API archit
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ![RAG Architecture](docs/architecture.png)
 
@@ -24,7 +24,7 @@ User (Browser UI) -> Streamlit Frontend -> FastAPI Backend -> FAISS Vector Store
 
 ---
 
-## 🧠 How RAG Works in This Project
+## How RAG Works in This Project
 
 1. PDF is uploaded via API
 2. Text is extracted using `pypdf`
@@ -38,7 +38,7 @@ User (Browser UI) -> Streamlit Frontend -> FastAPI Backend -> FAISS Vector Store
 
 ---
 
-## ⚙ Tech Stack
+## Tech Stack
 
 - FastAPI (Backend API)
 - Streamlit (Frontend UI)
@@ -49,7 +49,7 @@ User (Browser UI) -> Streamlit Frontend -> FastAPI Backend -> FAISS Vector Store
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1️⃣ Clone the repository
 git clone https://github.com/sakthee30/document-qna-rag-local
@@ -83,7 +83,7 @@ streamlit run app.py
 ### Frontend runs at
 http://localhost:8501
 
-## 📡 API Endpoints
+## API Endpoints
 ### POST /upload-pdf
 Uploads and processes a PDF document.
 

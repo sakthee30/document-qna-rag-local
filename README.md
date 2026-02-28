@@ -208,22 +208,7 @@ http://localhost:8000/docs
 
 ---
 
-## Testing the Pipeline (Without API)
 
-A standalone test script is included to test the full RAG pipeline directly:
-
-```bash
-python app/test_rag.py
-```
-
-This will:
-- Load `data/sample.pdf`
-- Chunk the text
-- Generate and store embeddings in FAISS
-- Run a test query
-- Print top retrieved chunks and the final LLM answer
-
----
 
 
 
